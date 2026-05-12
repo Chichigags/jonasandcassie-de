@@ -38,8 +38,13 @@ export function Hero() {
           </p>
 
           <p className="mt-14 max-w-xl font-sans text-[1.02rem] leading-[1.82] text-navy-soft opacity-0 animate-fade-up-slow md:mt-16 md:text-[1.08rem] md:leading-[1.86]">
-            Mir fiired e schöne Moment im Läbe — üsi Ehe, üsi 40er und all die
-            Mönsche, wo das alles besonders mached.
+            <span className="block">
+              Wir feiern einen besonderen Moment im Leben — unsere Ehe, unsere
+              Vierzigsten
+            </span>
+            <span className="block">
+              und all die Menschen, die das alles besonders machen.
+            </span>
           </p>
         </div>
       </div>

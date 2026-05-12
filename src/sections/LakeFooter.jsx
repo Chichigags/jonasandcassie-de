@@ -12,7 +12,7 @@ export function LakeFooter() {
       <div className="relative h-[42svh] min-h-[280px] w-full md:h-[48svh]">
         <img
           src="/images/footer-lake.png"
-          alt="Ruhige See am goldige Abig, weichi Wolke über em Horizont"
+          alt="Ruhiger See im goldenen Abendlicht, weiche Wolken über dem Horizont"
           className="absolute inset-0 h-full w-full object-cover"
           style={{
             objectPosition: 'center bottom',

@@ -31,7 +31,7 @@ export function RsvpSuccessNote({ leaving, onDismiss }) {
           type="button"
           onClick={onDismiss}
           className="absolute -right-1 -top-1 z-20 flex h-9 w-9 items-center justify-center rounded-full bg-paper/90 text-[1.15rem] font-light leading-none text-ocean/55 shadow-postcard ring-1 ring-ocean/10 transition-colors hover:bg-paper hover:text-ocean/75 md:right-0 md:top-0"
-          aria-label="Schliesse"
+          aria-label="Schließen"
         >
           ×
         </button>

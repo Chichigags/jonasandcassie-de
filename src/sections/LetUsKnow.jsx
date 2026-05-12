@@ -10,6 +10,8 @@ const fieldClass =
 const textareaClass = `${fieldClass} mt-2 w-full resize-none min-h-[2.75rem] max-h-[14rem] overflow-y-auto leading-[1.72]`
 const labelClass =
   'block font-sans text-[0.98rem] font-normal leading-[1.78] text-navy-soft md:text-[1.02rem] md:leading-[1.82]'
+const optionClass =
+  'flex items-center gap-3 font-sans text-[0.98rem] leading-[1.82] text-navy-soft md:text-[1.02rem] md:leading-[1.86]'
 
 /**
  * RSVP — warm ivory field; quiet form; editorial capsule button.
@@ -81,11 +83,11 @@ export function LetUsKnow() {
       setErrorMessage(
         fromErrors ||
           body.error ||
-          `Nit chönne schicke (${res.status}). Bitte Formspree-Iischtellige prüefe oder nomol probiere.`,
+          `Konnte nicht senden (${res.status}). Bitte Formspree-Einstellungen prüfen oder es erneut versuchen.`,
       )
       setStatus('error')
     } catch {
-      setErrorMessage('Netzwärchfehler. Bitte nomol versueche.')
+      setErrorMessage('Netzwerkfehler. Bitte versuche es erneut.')
       setStatus('error')
     }
   }
@@ -112,7 +114,7 @@ export function LetUsKnow() {
         <Reveal>
           <p className="eyebrow mb-5">YES?</p>
           <h2 className="font-display text-[2.45rem] font-semibold not-italic leading-[1.06] tracking-[-0.015em] text-ocean md:text-[2.85rem]">
-            Bisch debii?
+            Seid ihr dabei?
           </h2>
         </Reveal>
 
@@ -133,22 +135,37 @@ export function LetUsKnow() {
                 type="text"
                 required
                 autoComplete="name"
-                placeholder="Dii Name (+1, falls öppis)"
+                placeholder="Euer Name (+1, falls vorhanden)"
                 className={`mt-2.5 w-full ${fieldClass}`}
               />
             </div>
 
+            <fieldset>
+              <legend className={labelClass}>
+                Kommt ihr auch zum Brunch?
+              </legend>
+              <div className="mt-2.5 grid gap-2.5">
+                <label className={optionClass}>
+                  <input
+                    type="checkbox"
+                    name="saturday_brunch"
+                    value="Yes"
+                    className="h-3.5 w-3.5 min-h-[0.875rem] min-w-[0.875rem] shrink-0 accent-citrus"
+                  />
+                  Saturday brunch
+                </label>
+              </div>
+            </fieldset>
+
             <div>
               <label htmlFor="rsvp-message" className={labelClass}>
-                <span className="block">Hesch Allergie</span>
-                <span className="block">oder öppis,</span>
-                <span className="block">wo mir bim Esse wüsse sötted?</span>
+                Gibt es Allergien oder etwas, das wir beim Essen wissen sollten?
               </label>
               <textarea
                 id="rsvp-message"
                 name="message"
                 rows={1}
-                placeholder="Wenn nöd: Hesch du e Liebes- oder Läbensweisheit für eus?"
+                placeholder="Und falls nicht: Habt ihr eine Liebes- oder Lebensweisheit für uns?"
                 className={textareaClass}
               />
             </div>
@@ -160,7 +177,7 @@ export function LetUsKnow() {
               className="group mx-auto mt-1 inline-flex min-h-[2.25rem] items-center justify-center gap-2 rounded-full border border-citrus/65 bg-transparent px-9 py-2 font-sans text-[0.8rem] font-normal tracking-[0.08em] text-citrus transition-[border-color,background-color,color,opacity] duration-300 hover:border-citrus hover:bg-citrus/[0.07] disabled:cursor-not-allowed disabled:opacity-55 md:px-10 md:text-[0.82rem]"
             >
               {status === 'submitting' ? (
-                'Wird gschickt…'
+                'Wird gesendet…'
               ) : (
                 <>
                   Let us know
@@ -187,7 +204,7 @@ export function LetUsKnow() {
 
         <Reveal delayClass="reveal-delay-2">
           <p className="mt-14 font-display text-[1.36rem] font-normal italic leading-snug text-ocean md:mt-16 md:text-[1.62rem] md:leading-relaxed">
-            A text, message or call is also fine.
+            Eine Nachricht, ein Anruf oder ein Text reicht völlig.
           </p>
         </Reveal>
       </div>

@@ -31,7 +31,7 @@ export function Story() {
             >
               <img
                 src={beijingImg}
-                alt="Paar in ere Beijing Hutong, Namittag im liechte Sunneglanz"
+                alt="Paar in einer Beijing-Hutong, Nachmittag im warmen Sonnenlicht"
                 width={690}
                 height={735}
                 className="story-image story-image-beijing relative z-10 block h-auto max-w-full rotate-[1.15deg] sm:max-w-[min(52%,280px)] sm:origin-bottom"
@@ -42,7 +42,7 @@ export function Story() {
               />
               <img
                 src={singaporeImg}
-                alt="Paar mit chline Hund am Marina Bay in Singapur am goldige Abig"
+                alt="Paar mit kleinem Hund an der Marina Bay in Singapur im goldenen Abendlicht"
                 width={690}
                 height={735}
                 className="story-image story-image-singapore relative z-20 -mt-2 block h-auto max-w-full -rotate-[1.05deg] sm:-ml-10 sm:mt-0 sm:max-w-[min(52%,280px)] md:-ml-12 sm:origin-bottom"
@@ -58,16 +58,16 @@ export function Story() {
               <div className="story-text text-left">
                 <p className="eyebrow mb-0">HOW WE GOT HERE</p>
                 <h2 className="mt-5 font-display text-[1.95rem] font-semibold not-italic leading-[1.06] tracking-[-0.015em] text-ocean md:text-[1.4rem] lg:text-[1.62rem] xl:text-[1.82rem] 2xl:text-[1.98rem] xl:whitespace-nowrap">
-                  Vo Beijing nach Singapur
+                  Von Beijing nach Singapur
                 </h2>
                 <p className="story-line-2 mt-9 font-sans text-[1.02rem] font-normal leading-[1.78] text-navy-soft md:mt-10 md:text-[1.05rem] md:leading-[1.82] mb-[18px]">
-                  Was in Beijing agfange het, isch in Singapur zu üsem Läbe worde
-                  — mit villne Abenteuer, es paar Plot Twists und irgendwenn au
-                  mit eme ziemlich verwöhnte chline Hund.
+                  Was in Beijing angefangen hat, wurde in Singapur zu unserem
+                  Leben — mit vielen Abenteuern, ein paar Plot Twists und
+                  irgendwann auch mit einem ziemlich verwöhnten kleinen Hund.
                 </p>
                 <p className="story-line-3 font-sans text-[1.02rem] font-normal leading-[1.78] text-navy-soft md:text-[1.05rem] md:leading-[1.82]">
-                  Diesen Sommer nähmed mir eus e Moment, zum das alles mit de
-                  Mönsche z’fiire, wo eus am meiste bedüted.
+                  Diesen Sommer nehmen wir uns einen Moment, um das alles mit den
+                  Menschen zu feiern, die uns am meisten bedeuten.
                 </p>
               </div>
             </div>

@@ -8,46 +8,46 @@ const blocks = [
     time: '5:00 PM',
     title: 'Treffpunkt: Lucerne Pier 1',
     body: [
-      'Mir träffed eus am Pier und gönd zäme ufs Schiff.',
-      'Es chliises, aber wichtigs Schwiizer Detail: s Schiff fahrt pünktlich ab. Nöd “fashionably late”. Sondern Schwiizer Ziit.',
+      'Wir treffen uns am Pier und gehen gemeinsam aufs Schiff.',
+      'Ein kleines, aber wichtiges Schweizer Detail: Das Schiff fährt pünktlich ab. Nicht „fashionably late“. Sondern Schweizer Zeit.',
     ],
-    closingLine: 'Sehr schwiizerisch.',
+    closingLine: 'Sehr schweizerisch.',
   },
   {
     time: '5:15 – 7:15 PM',
-    title: 'Schifffahrt nach Weggis',
+    title: 'Bootsfahrt nach Weggis',
     body: [
-      'E schöni Fahrt über de Vierwaldstättersee — mit Berge, gueter Gsellschaft und eme Apéro, zum de Abig richtig azfange.',
-      'Ziit zum Aastosse, Plaudere und zum sich kennelehre — will sich ja no nöd alli känned.',
+      'Eine wunderschöne Fahrt über den Vierwaldstättersee — mit Bergen, guter Gesellschaft und einem Apéro, damit der Abend richtig beginnt.',
+      'Zeit zum Anstoßen, Plaudern und zum Kennenlernen — denn schließlich kennen sich noch nicht alle.',
     ],
-    closingLine: 'Das isch de offizielli Start vo üsem Fest.',
+    closingLine: 'Das ist der offizielle Start unseres Festes.',
   },
   {
     time: '7:45 – 10:45 PM',
-    title: 'Znacht im Restaurant Riva am See, Weggis',
+    title: 'Abendessen im Restaurant Riva am See, Weggis',
     body: [
-      'Langi Tische, churzi Reden, guets Esse, feine Wii und hoffentlich no besseri Gspröch.',
-      'Und um ca. 10 Uhr spendiert d’Schwiiz praktischerwiis es Füürwerk.',
+      'Lange Tische, kurze Reden, gutes Essen, guter Wein und hoffentlich noch bessere Gespräche.',
+      'Und gegen 22 Uhr spendiert die Schweiz praktischerweise ein Feuerwerk.',
     ],
     closingLine:
-      'Das chönd mir leider nöd für eus verbueche — das passiert jedes Jahr am Nationalfiirtig.',
+      'Das können wir uns leider nicht selbst zuschreiben — das passiert jedes Jahr am Nationalfeiertag.',
   },
   {
     time: '11:00 PM',
-    title: 'Zrugg nach Luzern',
+    title: 'Zurück nach Luzern',
     body: [
-      'Mir organisiere de Transport zrugg nach Luzern für alli.',
-      'Für die vernünftige Gäst: das isch de elegante Schluss.',
+      'Wir organisieren den Rücktransport nach Luzern für alle.',
+      'Für die vernünftigen Gäste: Das ist das elegante Ende.',
     ],
-    closingLine: 'Für alli andere…',
+    closingLine: 'Für alle anderen …',
   },
   {
     time: 'Late-ish',
     title: 'Afterparty irgendwo',
     body: [
-      'No kei offizielli Plän. Aber mir vermuetid, dass es paar Drinks, Gschichte und fragwürdigi Dance Moves irgendwo i de Stadt wiitergönd.',
+      'Noch keine offiziellen Pläne. Aber wir vermuten, dass ein paar Drinks, Geschichten und fragwürdige Dance Moves irgendwo in der Stadt weitergehen.',
     ],
-    closingLine: 'Optional, aber sehr willkomme.',
+    closingLine: 'Optional, aber sehr willkommen.',
   },
 ]
 
@@ -64,12 +64,12 @@ export function Evening() {
         <header className="mx-auto max-w-prose text-center">
           <p className="eyebrow">THE EVENING</p>
           <h2 className="mt-5 font-display text-[2.5rem] font-semibold not-italic leading-[1.06] tracking-[-0.015em] text-ocean md:text-[2.9rem]">
-            So gseht de Abig us
+            So sieht der Abend aus
           </h2>
           <p className="mx-auto mt-8 max-w-xl font-sans text-[1.02rem] leading-[1.82] text-navy-soft md:mt-9 md:text-[1.06rem] md:leading-[1.86]">
-            <span className="block">E Sommerabig am See —</span>
+            <span className="block">Ein Sommerabend am See —</span>
             <span className="block">
-              locker, schön und hoffentlich unvergässlich.
+              entspannt, schön und hoffentlich unvergesslich.
             </span>
           </p>
         </header>
