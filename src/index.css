@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-paper text-navy font-sans font-normal antialiased;
+    font-feature-settings: 'kern' 1, 'liga' 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection {
+    background: rgba(30, 45, 120, 0.12);
+  }
+  img {
+    -webkit-user-drag: none;
+  }
+}
+
+@layer utilities {
+  .bone-bg {
+    @apply bg-sky-wash;
+  }
+
+  .reveal {
+    @apply opacity-0 translate-y-6 transition-all duration-[900ms] ease-out;
+  }
+  .reveal.is-visible {
+    @apply opacity-100 translate-y-0;
+  }
+  .reveal-delay-1 { transition-delay: 100ms; }
+  .reveal-delay-2 { transition-delay: 220ms; }
+  .reveal-delay-3 { transition-delay: 360ms; }
+
+  .eyebrow {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    @apply text-ocean;
+  }
+  @media (min-width: 768px) {
+    .eyebrow {
+      font-size: 0.76rem;
+      letter-spacing: 0.13em;
+    }
+  }
+
+  .h-section {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 600;
+    font-size: 2.35rem;
+    line-height: 1.08;
+    letter-spacing: -0.015em;
+    @apply text-ocean;
+  }
+  @media (min-width: 768px) {
+    .h-section {
+      font-size: 2.95rem;
+    }
+  }
+
+  .body-text {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 400;
+    font-size: 0.98rem;
+    line-height: 1.78;
+    color: #4b4b4b;
+  }
+  @media (min-width: 768px) {
+    .body-text {
+      font-size: 1.04rem;
+      line-height: 1.82;
+    }
+  }
+
+  /**
+   * Soft top wash: sky into paper — links sections without hard breaks.
+   * Uses existing palette only (sky-bright + paper).
+   */
+  .section-flow {
+    background-color: #f5f2ec;
+    background-image: linear-gradient(
+      180deg,
+      rgba(147, 178, 248, 0.05) 0%,
+      rgba(245, 242, 236, 0) min(32vw, 14rem)
+    );
+  }
+
+  /** Warmer ivory lift — alternate with section-flow for rhythm */
+  .section-flow-warm {
+    background-color: #f5f2ec;
+    background-image: linear-gradient(
+      180deg,
+      rgba(232, 223, 208, 0.22) 0%,
+      rgba(245, 242, 236, 0) min(28vw, 12rem)
+    );
+  }
+
+  .accent-italic {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-style: italic;
+    font-weight: 400;
+    @apply text-ocean;
+  }
+}
