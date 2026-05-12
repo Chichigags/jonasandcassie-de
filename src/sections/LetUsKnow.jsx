@@ -10,8 +10,6 @@ const fieldClass =
 const textareaClass = `${fieldClass} mt-2 w-full resize-none min-h-[2.75rem] max-h-[14rem] overflow-y-auto leading-[1.72]`
 const labelClass =
   'block font-sans text-[0.98rem] font-normal leading-[1.78] text-navy-soft md:text-[1.02rem] md:leading-[1.82]'
-const optionClass =
-  'flex items-center gap-3 font-sans text-[0.98rem] leading-[1.82] text-navy-soft md:text-[1.02rem] md:leading-[1.86]'
 
 /**
  * RSVP — warm ivory field; quiet form; editorial capsule button.
@@ -139,23 +137,6 @@ export function LetUsKnow() {
                 className={`mt-2.5 w-full ${fieldClass}`}
               />
             </div>
-
-            <fieldset>
-              <legend className={labelClass}>
-                Kommt ihr auch zum Brunch?
-              </legend>
-              <div className="mt-2.5 grid gap-2.5">
-                <label className={optionClass}>
-                  <input
-                    type="checkbox"
-                    name="saturday_brunch"
-                    value="Yes"
-                    className="h-3.5 w-3.5 min-h-[0.875rem] min-w-[0.875rem] shrink-0 accent-citrus"
-                  />
-                  Saturday brunch
-                </label>
-              </div>
-            </fieldset>
 
             <div>
               <label htmlFor="rsvp-message" className={labelClass}>
