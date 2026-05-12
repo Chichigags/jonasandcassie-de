@@ -9,8 +9,7 @@ const HEART_DELAY_MS = 720
 const LINE_ANIM_MS = 920
 const CARD_ANIM_MS = 720
 
-const LINES = [
-  'Super! Jonas, Cassie und Riva',
+const LINES_TAIL = [
   'können es kaum erwarten,',
   'euch diesen Sommer',
   'zu sehen.',
@@ -119,12 +118,24 @@ export function RsvpSuccessNote({ leaving, onDismiss }) {
                 lineHeight: 1.22,
               }}
             >
-              {LINES.map((line, i) => (
+              <p
+                className="rsvp-success-line m-0 px-0.5"
+                style={{
+                  animationDelay: `${LINE_BASE_DELAY_MS}ms`,
+                }}
+              >
+                Super! Jonas, Cassie und{' '}
+                <span className="inline-block translate-y-[0.04em] text-[1.2em] leading-none">
+                  🐶
+                </span>{' '}
+                Riva
+              </p>
+              {LINES_TAIL.map((line, i) => (
                 <p
                   key={line}
                   className="rsvp-success-line m-0 px-0.5"
                   style={{
-                    animationDelay: `${LINE_BASE_DELAY_MS + i * LINE_STAGGER_MS}ms`,
+                    animationDelay: `${LINE_BASE_DELAY_MS + (i + 1) * LINE_STAGGER_MS}ms`,
                   }}
                 >
                   {line}
