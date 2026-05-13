@@ -17,7 +17,7 @@ export function Hero() {
         />
       </div>
 
-      <div className="relative z-[1] mx-auto flex min-h-[100svh] max-w-[1100px] flex-col justify-center px-6 pb-20 pt-24 md:px-12 md:pb-24 md:pt-28 lg:px-16 lg:pb-28">
+      <div className="relative z-[1] mx-auto flex min-h-[100svh] max-w-[1100px] flex-col justify-start px-6 pb-20 pt-24 md:px-12 md:pb-24 md:pt-28 lg:px-16 lg:pb-28">
         <div className="max-w-2xl">
           <p className="font-sans text-[0.78rem] font-semibold uppercase tracking-[0.13em] text-charcoal opacity-0 animate-fade-up md:text-[0.82rem]">
             LUCERNE · 1. AUGUST 2026
