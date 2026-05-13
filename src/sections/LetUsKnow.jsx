@@ -85,7 +85,7 @@ export function LetUsKnow() {
       )
       setStatus('error')
     } catch {
-      setErrorMessage('Netzwerkfehler. Bitte versuche es erneut.')
+      setErrorMessage('Netzwerkfehler. Bitte versucht es erneut.')
       setStatus('error')
     }
   }
@@ -161,7 +161,7 @@ export function LetUsKnow() {
                 'Wird gesendet…'
               ) : (
                 <>
-                  Let us know
+                  Bescheid geben
                   <span
                     aria-hidden
                     className="inline-block text-[0.92em] transition-transform duration-300 group-hover:translate-x-0.5"
