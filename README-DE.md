@@ -10,6 +10,10 @@ This folder is a **duplicate** of the English wedding site (`../Website`), with 
 
 Do **not** replace the existing English deployment; run this as its own project.
 
+### Link previews (WhatsApp / iMessage)
+
+`index.html` uses `https://jonasandcassie-de.vercel.app` for `canonical`, `og:url`, and `og:image`. If your production URL is a **custom domain**, replace those three URLs in `index.html` so previews match your live site.
+
 ## Local dev
 
 ```bash
