@@ -17,7 +17,7 @@ export function DressCode() {
           className="absolute inset-0 h-full w-full object-cover"
           style={{
             objectPosition: 'center 42%',
-            filter: 'saturate(0.96) contrast(0.97) brightness(1.02)',
+            filter: 'saturate(1.1) contrast(1.02) brightness(1)',
           }}
         />
 

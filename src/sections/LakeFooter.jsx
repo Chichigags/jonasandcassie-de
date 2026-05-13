@@ -16,7 +16,7 @@ export function LakeFooter() {
           className="absolute inset-0 h-full w-full object-cover"
           style={{
             objectPosition: 'center bottom',
-            filter: 'saturate(0.96) contrast(0.96) brightness(1.02)',
+            filter: 'saturate(1.1) contrast(1.02) brightness(1)',
           }}
           loading="lazy"
           decoding="async"
