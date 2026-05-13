@@ -25,7 +25,7 @@ export function LakeFooter() {
         <div className="absolute inset-0 flex -translate-y-2 items-center justify-center px-4 md:-translate-y-3">
           <div className="text-center">
             <p className="font-script text-[2.35rem] leading-none text-ocean md:text-[3rem]">
-              See you by the water.
+              Bis bald am See.
             </p>
             <p className="mt-4 font-display text-[1.12rem] font-semibold leading-none text-ocean md:text-[1.38rem]">
               Jonas &amp; Cassie
