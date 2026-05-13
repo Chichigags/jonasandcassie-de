@@ -43,14 +43,15 @@ export function DressCode() {
 
             <Reveal delayClass="reveal-delay-1">
               <div className="mt-9 font-sans text-[1rem] font-normal leading-[1.78] text-ocean-vivid md:mt-10 md:text-[1.05rem] md:leading-[1.82]">
-                <p>Bootstauglich, tanztauglich.</p>
+                <p>Bootstauglich. Tanztauglich.</p>
               </div>
             </Reveal>
 
             <Reveal delayClass="reveal-delay-2">
-              <p className="mt-10 font-display text-[1.22rem] font-normal italic leading-snug tracking-[-0.01em] text-ocean-vivid md:mt-11 md:text-[1.3rem]">
-                Kein Black Tie. Kein Druck.
-              </p>
+              <div className="mt-10 space-y-3 font-display text-[1.22rem] font-normal italic leading-snug tracking-[-0.01em] text-ocean-vivid md:mt-11 md:text-[1.3rem]">
+                <p>Kein Black Tie.</p>
+                <p>Kein Druck.</p>
+              </div>
             </Reveal>
           </div>
         </div>

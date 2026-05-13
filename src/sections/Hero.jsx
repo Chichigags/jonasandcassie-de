@@ -32,19 +32,17 @@ export function Hero() {
           </p>
 
           <p className="mt-10 font-['EB_Garamond',Garamond,serif] italic text-[1.52rem] font-semibold leading-snug text-ocean opacity-0 animate-fade-up-slow md:mt-11 md:text-[2.05rem] md:leading-[1.28]">
-            Eine Ehe. Zwei Geburtstage.
+            Eine Ehe. Zwei Vierzigste.
             <br />
             Ein Sommerabend am See.
           </p>
 
           <p className="mt-14 max-w-xl font-sans text-[1.02rem] leading-[1.82] text-navy-soft opacity-0 animate-fade-up-slow md:mt-16 md:text-[1.08rem] md:leading-[1.86]">
-            <span className="block">
-              Wir feiern einen besonderen Moment im Leben — unsere Ehe, unsere
-              Vierzigsten
-            </span>
-            <span className="block">
-              und all die Menschen, die das alles besonders machen.
-            </span>
+            Wir feiern einen besonderen Moment im Leben —
+            <br />
+            unsere Ehe, unsere runden Geburtstage
+            <br />
+            und all die Menschen, die das Ganze besonders machen.
           </p>
         </div>
       </div>

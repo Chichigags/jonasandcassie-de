@@ -9,7 +9,10 @@ const blocks = [
     title: 'Treffpunkt: Lucerne Pier 1',
     body: [
       'Wir treffen uns am Pier und gehen gemeinsam aufs Schiff.',
-      'Ein kleines, aber wichtiges Schweizer Detail: Das Schiff fährt pünktlich ab. Nicht „fashionably late“. Sondern Schweizer Zeit.',
+      'Ein kleines, aber wichtiges Schweizer Detail:',
+      'Das Schiff fährt pünktlich ab.',
+      'Nicht „fashionably late“.',
+      'Sondern nach Schweizer Zeit.',
     ],
     closingLine: 'Sehr schweizerisch.',
   },
@@ -18,13 +21,13 @@ const blocks = [
     title: 'Bootsfahrt nach Weggis',
     body: [
       'Eine wunderschöne Fahrt über den Vierwaldstättersee — mit Bergen, guter Gesellschaft und einem Apéro, damit der Abend richtig beginnt.',
-      'Zeit zum Anstoßen, Plaudern und zum Kennenlernen — denn schließlich kennen sich noch nicht alle.',
+      'Zeit zum Anstoßen, Plaudern und Kennenlernen — denn schließlich kennen sich noch nicht alle.',
     ],
-    closingLine: 'Das ist der offizielle Start unseres Festes.',
+    closingLine: 'Der offizielle Start unseres Festes.',
   },
   {
     time: '7:45 – 10:45 PM',
-    title: 'Abendessen im Restaurant Riva am See, Weggis',
+    title: 'Dinner im Restaurant Riva am See, Weggis',
     body: [
       'Lange Tische, kurze Reden, gutes Essen, guter Wein und hoffentlich noch bessere Gespräche.',
       'Und gegen 22 Uhr spendiert die Schweiz praktischerweise ein Feuerwerk.',
@@ -37,7 +40,7 @@ const blocks = [
     title: 'Zurück nach Luzern',
     body: [
       'Wir organisieren den Rücktransport nach Luzern für alle.',
-      'Für die vernünftigen Gäste: Das ist das elegante Ende.',
+      'Für die Vernünftigen: das elegante Ende.',
     ],
     closingLine: 'Für alle anderen …',
   },
@@ -45,9 +48,9 @@ const blocks = [
     time: 'Late-ish',
     title: 'Afterparty irgendwo',
     body: [
-      'Noch keine offiziellen Pläne. Aber wir vermuten, dass ein paar Drinks, Geschichten und fragwürdige Dance Moves irgendwo in der Stadt weitergehen.',
+      'Noch keine offiziellen Pläne. Aber wir vermuten, dass irgendwo in der Stadt noch Drinks, Geschichten und fragwürdige Dance Moves weitergehen.',
     ],
-    closingLine: 'Optional, aber sehr willkommen.',
+    closingLine: 'Optional — aber sehr willkommen.',
   },
 ]
 
@@ -68,9 +71,8 @@ export function Evening() {
           </h2>
           <p className="mx-auto mt-8 max-w-xl font-sans text-[1.02rem] leading-[1.82] text-navy-soft md:mt-9 md:text-[1.06rem] md:leading-[1.86]">
             <span className="block">Ein Sommerabend am See —</span>
-            <span className="block">
-              entspannt, schön und hoffentlich unvergesslich.
-            </span>
+            <span className="block">entspannt, schön</span>
+            <span className="block">und hoffentlich unvergesslich.</span>
           </p>
         </header>
       </Reveal>

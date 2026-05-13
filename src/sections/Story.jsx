@@ -61,13 +61,20 @@ export function Story() {
                   Von Beijing nach Singapur
                 </h2>
                 <p className="story-line-2 mt-9 font-sans text-[1.02rem] font-normal leading-[1.78] text-navy-soft md:mt-10 md:text-[1.05rem] md:leading-[1.82] mb-[18px]">
-                  Was in Beijing angefangen hat, wurde in Singapur zu unserem
-                  Leben — mit vielen Abenteuern, ein paar Plot Twists und
-                  irgendwann auch mit einem ziemlich verwöhnten kleinen Hund.
+                  Was in Beijing begonnen hat,
+                  <br />
+                  wurde in Singapur zu unserem Leben —
+                  <br />
+                  mit vielen Abenteuern, ein paar Plot Twists
+                  <br />
+                  und irgendwann auch einem ziemlich verwöhnten kleinen Hund.
                 </p>
                 <p className="story-line-3 font-sans text-[1.02rem] font-normal leading-[1.78] text-navy-soft md:text-[1.05rem] md:leading-[1.82]">
-                  Diesen Sommer nehmen wir uns einen Moment, um das alles mit den
-                  Menschen zu feiern, die uns am meisten bedeuten.
+                  Diesen Sommer nehmen wir uns einen Moment,
+                  <br />
+                  um das alles mit den Menschen zu feiern,
+                  <br />
+                  die uns am meisten bedeuten.
                 </p>
               </div>
             </div>
