@@ -31,7 +31,7 @@ export function Hero() {
             JONAS &amp; CASSIE
           </p>
 
-          <p className="mt-10 font-['EB_Garamond',Garamond,serif] italic text-[1.52rem] font-semibold leading-snug text-ocean opacity-0 animate-fade-up-slow md:mt-11 md:text-[2.05rem] md:leading-[1.28]">
+          <p className="mt-10 font-display italic text-[1.36rem] font-normal leading-tight text-ocean opacity-0 animate-fade-up-slow md:mt-11 md:text-[1.82rem] md:leading-[1.36]">
             Eine Ehe. Zwei Vierzigste.
             <br />
             Ein Sommerabend am See.
