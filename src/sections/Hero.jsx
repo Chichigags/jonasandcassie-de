@@ -9,7 +9,7 @@ export function Hero() {
           src="/images/hero-meadow.png"
           alt=""
           aria-hidden
-          className="absolute inset-0 h-full w-full object-cover max-md:object-[center_68%] md:object-center max-md:[filter:saturate(1.08)_contrast(1.02)_brightness(1)] md:[filter:saturate(0.94)_contrast(0.96)_brightness(1.03)]"
+          className="absolute inset-0 h-full w-full object-cover max-md:object-[center_68%] md:object-center max-md:[filter:saturate(1.12)_contrast(1.03)_brightness(1)] md:[filter:saturate(1.02)_contrast(0.98)_brightness(1.03)]"
         />
         <div
           className="pointer-events-none absolute inset-x-0 bottom-0 h-[min(15vh,6.5rem)] bg-gradient-to-t from-paper from-[18%] to-transparent md:h-[min(28vh,12rem)] md:from-15%"
