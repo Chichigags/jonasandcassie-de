@@ -125,8 +125,15 @@ export function RsvpSuccessNote({ leaving, onDismiss }) {
                 }}
               >
                 Super! Jonas, Cassie und{' '}
-                <span className="inline-block translate-y-[0.04em] text-[1.2em] leading-none">
-                  🐶
+                <span
+                  className="inline-block translate-y-[0.04em] text-[1.2em] leading-none not-italic"
+                  style={{
+                    fontFamily:
+                      '"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji",system-ui,sans-serif',
+                  }}
+                  aria-hidden
+                >
+                  {'🐶\uFE0F'}
                 </span>{' '}
                 Riva
               </p>
