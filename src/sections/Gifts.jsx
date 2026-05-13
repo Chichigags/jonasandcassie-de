@@ -20,18 +20,12 @@ export function Gifts() {
         <Reveal delayClass="reveal-delay-1">
           <div className="mx-auto mt-8 max-w-[34rem] space-y-5 font-sans text-[1.02rem] leading-[1.82] text-navy-soft md:mt-9 md:text-[1.06rem] md:leading-[1.86]">
             <p>
-              Dass ihr mit uns feiert,
-              <br />
-              ist für uns bereits das schönste Geschenk —
-              <br />
-              vor allem, wenn ihr extra nach Luzern reist.
+              Dass ihr mit uns feiert, ist für uns bereits das schönste Geschenk
+              — vor allem, wenn ihr extra nach Luzern reist.
             </p>
             <p>
-              Falls ihr trotzdem etwas beitragen möchtet,
-              <br />
-              freuen wir uns über einen kleinen Beitrag
-              <br />
-              für unsere nächsten Abenteuer.
+              Falls ihr trotzdem etwas beitragen möchtet, freuen wir uns über
+              einen kleinen Beitrag für unsere nächsten Abenteuer.
             </p>
             <div className="pt-2">
               <p className="mb-1 font-sans text-[0.72rem] font-medium uppercase tracking-[0.07em] text-navy-label">

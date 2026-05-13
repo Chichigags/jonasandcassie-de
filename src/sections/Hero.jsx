@@ -38,11 +38,9 @@ export function Hero() {
           </p>
 
           <p className="mt-14 max-w-xl font-sans text-[1.02rem] leading-[1.82] text-navy-soft opacity-0 animate-fade-up-slow md:mt-16 md:text-[1.08rem] md:leading-[1.86]">
-            Wir feiern einen besonderen Moment im Leben —
-            <br />
-            unsere Ehe, unsere runden Geburtstage
-            <br />
-            und all die Menschen, die das Ganze besonders machen.
+            Wir feiern einen besonderen Moment im Leben — unsere Ehe, unsere
+            runden Geburtstage und all die Menschen, die das Ganze besonders
+            machen.
           </p>
         </div>
       </div>

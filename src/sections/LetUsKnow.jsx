@@ -140,15 +140,13 @@ export function LetUsKnow() {
 
             <div>
               <label htmlFor="rsvp-message" className={labelClass}>
-                Gibt es Allergien oder etwas,
-                <br />
-                das wir beim Essen wissen sollten?
+                Gibt es Allergien oder etwas, das wir beim Essen wissen sollten?
               </label>
               <textarea
                 id="rsvp-message"
                 name="message"
                 rows={1}
-                placeholder={'Und falls nicht:\nHabt ihr eine Liebes-\noder Lebensweisheit für uns?'}
+                placeholder="Und falls nicht: Habt ihr eine Liebes- oder Lebensweisheit für uns?"
                 className={textareaClass}
               />
             </div>
@@ -187,9 +185,7 @@ export function LetUsKnow() {
 
         <Reveal delayClass="reveal-delay-2">
           <p className="mt-14 font-display text-[1.36rem] font-normal italic leading-snug text-ocean md:mt-16 md:text-[1.62rem] md:leading-relaxed">
-            Eine Nachricht, ein Anruf
-            <br />
-            oder ein Text reicht völlig.
+            Eine Nachricht, ein Anruf oder ein Text reicht völlig.
           </p>
         </Reveal>
       </div>
