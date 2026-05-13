@@ -31,13 +31,7 @@ export function Hero() {
             JONAS &amp; CASSIE
           </p>
 
-          <p
-            className="mt-10 font-display italic text-[1.36rem] font-normal leading-tight text-ocean opacity-0 animate-fade-up-slow md:mt-11 md:text-[1.82rem] md:leading-[1.36]"
-            style={{
-              fontFeatureSettings:
-                '"kern" 1, "liga" 1, "calt" 0, "dlig" 0, "hlig" 0, "hist" 0, "salt" 0, "ss01" 0, "ss02" 0, "ss03" 0, "swsh" 0, "locl" 0',
-            }}
-          >
+          <p className="mt-10 font-['Lora',Georgia,serif] italic text-[1.36rem] font-normal leading-tight text-ocean opacity-0 animate-fade-up-slow md:mt-11 md:text-[1.82rem] md:leading-[1.36]">
             Eine Ehe. Zwei Geburtstage.
             <br />
             Ein Sommerabend am See.
